@@ -258,6 +258,8 @@ function continueStatement(num) {
    // Tu código:
    var aux = [];
    for (let i = 0; i < 10; i++) {
+
+      //Pregunta si el numero de iteraciones es igual a 5 e utilizamos el continue para continuar de largo y no hacer nada
       if (i === 5) {
          continue
       }
